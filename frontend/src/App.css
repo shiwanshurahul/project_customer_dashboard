@@ -1,0 +1,80 @@
+
+/* App.css */
+
+/* General body and page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Dashboard container */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Container for heatmap and insights */
+.heatmap-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 500px; /* Space for the heatmap */
+}
+
+/* Insights container */
+.insights-container {
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.insights-container h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Insight paragraph styling */
+.insights-container p {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 10px 0;
+}
+
+/* Make heatmap responsive */
+@media screen and (max-width: 768px) {
+  .dashboard-container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .heatmap-container {
+    height: 400px;
+  }
+
+  .insights-container {
+    padding: 15px;
+  }
+}
